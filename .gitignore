@@ -1,4 +1,9 @@
-# Dependencies
-node_modules/
-
-# Suiiii
+node_modules
+dist
+.git
+.vscode
+.idea
+coverage
+.env
+.env.*
+*.log
