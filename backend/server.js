@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     res.send("Backend Running");
 });
 
-app.get("/health123", (req, res) => {
+app.get("/health", (req, res) => {
   res.status(200).json({
     status: "ok",
   });
