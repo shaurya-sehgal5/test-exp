@@ -8,8 +8,8 @@ app.get("/", (req, res) => {
     res.send("Backend Running");
 });
 
-app.get("/health", (req, res) => {
-  res.status(500).json({
+app.get("/health123", (req, res) => {
+  res.status(200).json({
     status: "ok",
   });
 });
